@@ -1,0 +1,39 @@
+# CODEOWNERS file for product-api-972
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-payments @Armor-test/dept-data @Armor-test/squad-frontend
+
+# Directory ownership
+/api/ @Armor-test/grp-ui @Armor-test/dept-automation @Armor-test/dept-api
+/shared/ @Armor-test/dept-release @Armor-test/dept-reliability
+/static/ @Armor-test/dept-billing @Armor-test/team-research @Armor-test/dept-release
+/examples/ @Armor-test/squad-search @Armor-test/squad-ml
+/migrations/ @Armor-test/dept-security @Armor-test/squad-qa @Armor-test/squad-frontend
+/extensions/ @Armor-test/dept-billing @Armor-test/squad-ml @Armor-test/grp-payments
+/app/ @Armor-test/squad-database @Armor-test/squad-apps
+/helpers/ @Armor-test/team-reporting @Armor-test/grp-ui @Armor-test/grp-payments
+/public/ @Armor-test/squad-apps @Armor-test/unit-devops @Armor-test/dept-test
+/services/ @Armor-test/grp-payments @Armor-test/squad-api
+/scripts/ @Armor-test/dept-billing @Armor-test/dept-logging @Armor-test/squad-ux
+/styles/ @Armor-test/squad-research @Armor-test/dept-automation @Armor-test/grp-api
+/ui/ @Armor-test/grp-search @Armor-test/squad-cloud
+/deploy/ @Armor-test/dept-data @Armor-test/grp-search @Armor-test/squad-api
+
+# File type ownership
+*.md @Armor-test/unit-test @Armor-test/dept-test
+*.cpp @Armor-test/dept-identity @Armor-test/dept-test @Armor-test/squad-payments
+*.rb @Armor-test/dept-api @Armor-test/unit-cloud
+*.toml @Armor-test/team-security @Armor-test/dept-reporting
+*.ini @Armor-test/team-reporting @Armor-test/squad-ml @Armor-test/dept-security
+*.tsx @Armor-test/squad-product @Armor-test/dept-reliability @Armor-test/unit-governance
+*.sql @Armor-test/unit-test @Armor-test/squad-api @Armor-test/team-research
+*.swift @Armor-test/team-security @Armor-test/dept-release
+*.xml @Armor-test/squad-api @Armor-test/squad-frontend @Armor-test/team-logging
+*.php @Armor-test/dept-logging @Armor-test/unit-test @Armor-test/grp-integration
+*.css @Armor-test/squad-api @Armor-test/dept-logging
+*.scss @Armor-test/grp-search @Armor-test/squad-research
+*.yaml @Armor-test/team-notifications @Armor-test/dept-identity @Armor-test/grp-storage
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
